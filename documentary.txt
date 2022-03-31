@@ -1,0 +1,20 @@
+Analysis
+
+A program that reads the contents of a text file and prints the total number of vowels, sentences, words, emails, and web addresses in the text on the screen.
+
+*Reading files (BufferedReader)
+
+The background of reading files was created by producing objects from the BufferedReader library. the first line of text was transferred to line stringine using the reader.readLine() method.
+
+Using the while cycle, other lines of text, if any, were read and transferred to lines stringine.
+
+The lines string is returned after the text is read and transferred.
+
+*Calculation and Screen Printing (listing)
+
+The content of the text read using the regex library was analyzed in the desired formats.
+
+Individual variables have been added for each format and a separate pattern has been created for each format. These patterns
+with the help of , it was determined that there are escape of each format desired in the text. These operations were carried out using the methods of Pattern and Matcher.
+
+The data obtained has been printed on the screen.
